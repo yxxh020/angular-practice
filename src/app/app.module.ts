@@ -9,18 +9,20 @@ import { FooterComponent } from './footer/footer.component';
 import { SectionComponent } from './section/section.component';
 import { TimeDisplayComponent } from './section/time-display/time-display.component';
 import { ButtonsComponent } from './section/buttons/buttons.component';
+import { LayoutModule } from './layout/layout.module';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports: [BrowserModule, FormsModule, LayoutModule], //angular library기능 모듈
   declarations: [
     AppComponent,
     HelloComponent,
     HeaderComponent,
-    FooterComponent, 
+    FooterComponent,
     SectionComponent,
     TimeDisplayComponent,
-    ButtonsComponent 
+    ButtonsComponent,
   ],
-  bootstrap:    [ AppComponent ]
+  bootstrap: [AppComponent], //루트컴포넌트 선언
 })
-export class AppModule { }
+export class AppModule {}

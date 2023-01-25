@@ -9,7 +9,7 @@ export class SectionComponent implements OnInit {
 
   present ='welcome'; 
 
-
+  commandText
 
   constructor() { }
 
