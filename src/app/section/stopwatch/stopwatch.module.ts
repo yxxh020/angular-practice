@@ -7,6 +7,10 @@ import { ButtonsComponent } from './buttons/buttons.component';
   imports: [
     CommonModule
   ],
+  exports: [
+    TimeDisplayComponent,
+    ButtonsComponent,
+  ],
   declarations: [
     TimeDisplayComponent,
     ButtonsComponent,

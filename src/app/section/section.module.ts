@@ -10,7 +10,7 @@ import { StopwatchModule } from './stopwatch/stopwatch.module';
     StopwatchModule
   ],
   exports: [
-    SectionComponent
+    SectionComponent,
   ],
   declarations: [
     SectionComponent,
