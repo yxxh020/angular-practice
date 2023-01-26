@@ -6,9 +6,16 @@ import { AppComponent } from './app.component';
 
 import { LayoutModule } from './layout/layout.module';
 import { SectionModule } from './section/section.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, LayoutModule, SectionModule], //angular library기능 모듈
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule,
+    LayoutModule,
+    SectionModule
+  ], //angular library기능 모듈
   declarations: [AppComponent],
   bootstrap: [AppComponent], //루트컴포넌트 선언
 })
