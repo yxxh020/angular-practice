@@ -3,16 +3,17 @@
     <app-time-display [inputData]="present"></app-time-display>
     <!-- <app-time-display></app-time-display> -->
 
+    <!-- <app-buttons (clickEvent)="startTime($event)"></app-buttons> -->
 
-    <app-buttons (clickEvent)="startTime($event)"></app-buttons>
-
-
-
-    {{commandText}} <!--재사용성~-->
-    <app-buttons (clickEvent)=" commandText = $event"></app-buttons>
-
+    <!-- {{ commandText }} -->
+    <!--재사용성~-->
+    <!-- <app-buttons (clickEvent)="commandText = $event"></app-buttons> -->
   </div>
 
-  <a [routerLink]=" '/clock' ">시계로 이동</a>
+  <!-- routerLink: 화면이 갱신되지 않고 바로 페이지 이동 -->
+  <a [routerLink]="'/clock'">시계로 이동</a>
 
+  <button (click)="goClock()">
+    시계로 이동
+  </button>
 </div>
