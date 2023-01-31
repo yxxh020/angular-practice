@@ -19,6 +19,6 @@ import { PageToggleService } from './share/page-toggle.service';
   ], //angular library기능 모듈
   declarations: [AppComponent],
   bootstrap: [AppComponent], //루트컴포넌트 선언
-  providers: [PageToggleService],
+  providers:[PageToggleService]
 })
 export class AppModule {}

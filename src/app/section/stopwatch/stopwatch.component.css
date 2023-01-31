@@ -1,4 +1,4 @@
-.title{
+.title {
   background-color: rgb(229, 224, 224);
   width: 100%;
   height: 80vh;
@@ -6,10 +6,17 @@
   color: black;
 }
 
-.display{
+.display {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
 }
